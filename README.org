@@ -1,0 +1,71 @@
+# -*- mode:org;coding:utf-8 -*- 
+#+TITLE:     How to Boil a Chicken README
+#+AUTHOR:    William Clifford
+#+EMAIL:     wobh@yahoo.com
+#+DATE:      2013-06-19 Thu
+#+DESCRIPTION: How to boil a chicken
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:6 num:nil toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+OPTIONS:   author:nil email:nil creator:nil timestamp:nil
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+
+* Introduction
+
+This is a lightning talk I gave at [[http://www.portlandcodeschool.com][Portland Code School]] as an exercise
+in ignite presentations in [[https://github.com/bartaz/impress.js/][impress.js]]. I very crudely adapted the
+sample code to my needs, and brutally ripped out anything fancy. Since
+then, I have, in the manner of the fabled Procrustes, stuffed the
+presentation into a [[http://middlemanapp.com/][Middleman]] app.
+
+But that is nothing compared to the fate of the chicken.
+
+* Ingredients
+
+- 1 chicken 13-16 lbs, beheaded, befooted, and befeathered, but
+  otherwise whole
+- 1 gallon +/- water
+- 1 carrot, chopped
+- 1 celery stalk, chopped
+- 1 yellow onion, chopped
+- 1, 1 inch ginger, skinned
+- 5, cloves of garlic, whole
+- 1 tablespoon of dried thyme
+
+* Instructions
+
+1. Put chicken in large pot, with organs if available.
+2. Cover chicken with water (may boil water).
+3. Add other ingredients.
+4. Bring water to boil, simmer for 4ish hours.
+5. Separate the meat from the bones. Break the large bones and soak
+   in broth.
+6. Strain the broth from the remains of the chicken and vegetables.
+7. Add back to the broth, some of the vegetable remains (especially the garlic)
+   back to the broth
+8. Add back to the broth, some of the fatty bits of chicken remains, also the cartilege
+   and joint tissue.
+9. Blend and dillute broth as necessary.
+
+* Notes on slides
+
+1. Warning: presentation contains animal viscera.
+2. Water down your broth. It's quite rich, and could probably be doubled.
+5. "Whole" chicken
+6. Remove pad, rip paper and put guts in pot. We throw away the guts
+   afterwards. "You're welcome, raccoons."
+10. Warning: Water 200℉
+11 – 12. Use two forks like tossing a salad
+14. Separating meat from bones.
+17. Breaking bones to add back to pot
+19. 1.5 Quart bowl
+
+- After simmering, you should try to do the steps of separating meat
+  and broth as quickly as possible. It usually takes me a about a half
+  hour, but I'm trying to get that down.

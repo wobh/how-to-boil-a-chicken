@@ -1,0 +1,292 @@
+/* bluerobot_2_left.css */
+
+/* bluerobot's two column, left menu stylesheet adapted for wobh.org */
+
+/* $Id: bluerobot_2_left.css,v 0.8 2005/01/26 03:55:01 wobh Exp wobh $ */
+
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Fallback message */
+
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+    background: #EEDC94;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+
+
+
+/* Elements */
+
+body {
+/*    font-family: 'PT Sans', sans-serif;
+    min-height: 740px;
+*/
+    background: rgb(215, 215, 215);
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
+    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
+}
+
+/*
+body {
+	margin:0px;
+	padding:0px;
+	font-family:verdana, arial, helvetica, sans-serif;
+	color:#333;
+	background-color:white;
+}
+*/
+
+h2 {
+    margin:0em 0em 1em 0em;
+    padding:0em;
+    font-size:1.5em;
+    line-height:1.5em;
+    font-weight:900;
+    color:#ccc;
+}
+
+p, dt, dd, li, th, td, ins {
+/*	font:11px/20px verdana, arial, helvetica, sans-serif; */
+    font-size: .5em;
+    padding: 0em;
+}
+
+p { margin: 0em 0em 1em 0em; }
+
+a {
+	color: #09c;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: 600;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+a:link { color: #09c; }
+a:visited { color: #07a; }
+a:hover { background-color: #eee; }
+
+ol, ul {
+    padding: 0em 0em 0em 1em;
+}
+
+ol { list-style: decimal; }
+ul { list-style: square; }
+
+ol, ul, dl, blockquote, table {
+	color: black;
+	background-color: #eee;
+	border: 1px dashed #999;
+	margin: 0em 0em .5em .5em;
+}
+
+dl, blockquote { 
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+ol a:hover { background-color:white; }
+ul a:hover { background-color:white; }
+dl a:hover { background-color:white; }
+blockquote a:hover { background-color:white; }
+
+tr { /* no style */ }
+
+th {
+    color: black;
+    background-color: inherit;
+/*  border: 1px dashed #999; */
+}
+
+td { 
+    color: inherit;
+    background-color: white;
+    border: 1px dotted #999;
+}
+
+img {
+    margin: 0em, 0em, 1.5em, 0em;
+}
+
+/* Classes */
+
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+
+    font-family: 'PT Serif', georgia, serif;
+    font-size: 3em;
+    line-height: 1.5;
+}
+
+.two-up { 
+    width: 900px;
+    padding: 0px;
+    margin: auto;
+}
+
+.date {
+    margin:0px 50px 50px 200px;
+    padding:10px;
+}
+
+.menu a:hover { background-color:white; }
+.menu ul { border: none; }
+
+/* Ids */
+
+#masthead {
+	margin:50px 0px 10px 0px;
+	padding:17px 0px 3px 20px;
+	/* For IE5/Win's benefit height = [correct height] + [top padding] +
+	 * [top and bottom border widths] */
+	height:33px; /* 14px + 17px + 2px = 33px */
+	border-style:solid;
+	border-color:black;
+	border-width:1px 0px;
+	/* top and bottom borders: 1px; left and right borders: 0px */
+	line-height:11px;
+	background-color:#eee;
+
+/* Here is the ugly brilliant hack that protects IE5/Win from its own
+ * stupidity. Thanks to Tantek Celik for the hack and to Eric Costello
+ * for publicizing it. IE5/Win incorrectly parses the "\"}"" value,
+ * prematurely closing the style declaration. The incorrect IE5/Win
+ * value is above, while the correct value is below. See
+ * http://glish.com/css/hacks.asp for details.
+ */
+/*	
+	voice-family: "\"}\"";
+	voice-family:inherit; 
+*/
+	height:14px; /* the correct height */
+
+}
+/* I've heard this called the "be nice to Opera 5" rule. Basically, it
+ * feeds correct length values to user agents that exhibit the parsing
+ * error exploited above yet get the CSS box model right and understand
+ * the CSS2 parent-child selector. ALWAYS include a "be nice to Opera 5"
+ * rule every time you use the Tantek Celik hack (above).
+ */
+body>#masthead {height:14px;}
+
+#content, #intro {
+	margin:0px 50px 50px 200px;
+	padding:10px;
+}
+
+/* #intro { display: none; } */
+
+/*
+#title { 
+	display: inline;
+	font: normal bold medium sans-serif;
+}
+*/
+
+#tagline { font: normal normal small sans-serif; }
+
+/*
+#menus {
+	position: absolute;
+	top: 100px;
+	left: 20px; 
+	float: left;
+	margin: 5px 5px 0px 20px;
+	width: 172px; 
+	padding: 10px;
+	color: inherit;
+	background-color: #eee;
+	border:1px dashed #999;
+	line-height: 17px;*/
+/* Again, the ugly brilliant hack. */
+/*	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 150px;
+
+}*/
+/* Again, "be nice to Opera 5". */
+/* body>#menus { width:150px; } */
+
+#menus ul { margin: 16px 0px; }

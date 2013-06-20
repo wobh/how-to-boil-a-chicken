@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    
+    <title><%= data.page.title || "How to boil a chicken" %></title>
+    <meta name="description" 
+	  content="<%= data.page.description %>" />
+    <meta name="author" content="<%= data.page.author %>" />
+
+    <link href="Styles/boil.css" rel="stylesheet" />
+    <link href="Styles/ignite.css" rel="stylesheet" />
+
+  </head>
+  
+  <body class="impress-not-supported <%= page_classes %>">
+    <%= yield %>
+
+    <script src="Scripts/jquery-1.7.2.min.js"></script>
+    <script src="Scripts/ignite.js"></script>
+    <script src="Scripts/impress.js"></script>
+    <script>impress().init();</script>
+
+  </body>
+</html>
