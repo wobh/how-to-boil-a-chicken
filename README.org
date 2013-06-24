@@ -35,7 +35,7 @@ But that is nothing compared to the fate of the chicken.
 - 1 celery stalk, chopped
 - 1 yellow onion, chopped
 - 1, 1 inch ginger, skinned
-- 5, cloves of garlic, whole
+- 5 cloves of garlic, whole
 - 1 tablespoon of dried thyme
 
 * Instructions
@@ -48,10 +48,10 @@ But that is nothing compared to the fate of the chicken.
    in broth.
 6. Strain the broth from the remains of the chicken and vegetables.
 7. Add back to the broth, some of the vegetable remains (especially the garlic)
-   back to the broth
-8. Add back to the broth, some of the fatty bits of chicken remains, also the cartilege
+   back to the broth.
+8. Add back to the broth, some of the fatty bits of chicken remains, also the cartilage.
    and joint tissue.
-9. Blend and dillute broth as necessary.
+9. Blend and dilute broth as necessary.
 
 * Notes on slides
 
@@ -68,3 +68,23 @@ But that is nothing compared to the fate of the chicken.
 - After simmering, you should try to do the steps of separating meat
   and broth as quickly as possible. It usually takes me a about a half
   hour, but I'm trying to get that down.
+
+* Foreseeable Anticipated Questions
+
+** Is this safe?
+
+I haven't vetted this technique with the FDA, but if it isn't, I'm
+confident that it can made to be. I'm mainly concerned with the time
+it takes me to separate the meat from the bones while preparing the
+broth. The water at this state is slowly cooling from a temperature
+of 200℉. You really want to do this as quickly as possible.
+
+On the other hand you can't just put a gallon of blazing hot soup
+broth in the fridge. You need a cooling wand or paddle, or dilute the
+broth with cold water to get it down to a temperature that you can
+then put in the fridge or freezer.
+
+** Why did you give this talk at Portland Code School?
+
+The winter2013 class was required to give a lightning talk every
+week. It was not required to be technical.
